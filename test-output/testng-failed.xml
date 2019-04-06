@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Amazon Automation(failed)">
+    <classes>
+      <class name="com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass">
+        <methods>
+          <include name="InitiateDriver"/>
+          <include name="DirectToCreateCampaignScreen"/>
+        </methods>
+      </class> <!-- com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass -->
+    </classes>
+  </test> <!-- Amazon Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
