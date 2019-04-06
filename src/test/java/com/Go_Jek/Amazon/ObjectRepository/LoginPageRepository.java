@@ -1,7 +1,10 @@
 package com.Go_Jek.Amazon.ObjectRepository;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+
 
 public class LoginPageRepository {
 	
@@ -25,5 +28,10 @@ public class LoginPageRepository {
 	
 	@FindBy(xpath = "//*[@id=\"nav-link-yourAccount\"]/span[2]")
 	public WebElement oWelcomeText;
+	
+	@FindBy(id = "nav-item-signout")
+	public WebElement oLogoutBtn;
+	
+
 
 }

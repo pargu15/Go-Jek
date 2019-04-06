@@ -2,6 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<parameter name="Browser" value="Chrome"/>
+	<parameter name="ProductName" value="Macbook Pro"/>
   <test name="Amazon Automation">
     <classes>
       <class name="com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass"/>

@@ -32,5 +32,13 @@ public class LoginPageActions {
 		System.out.println("Login Successful Test");
 	}
 	
+	public void clickOnLogoutButton() throws Exception{
+		
+		action.moveToElement(loginRepository.oMyAccountLink)
+		      .moveToElement(loginRepository.oSignInLink).click().build().perform();
+		
+		System.out.println("Logout Successfull");
+	}
+	
 	
 }
