@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<parameter name="Browser" value="Chrome"/>
+<suite name="Suite" parallel ="tests">
+  <test name="Amazon Automation using chrome">
+  <parameter name="Browser" value="chrome"/>
 	<parameter name="ProductName" value="Macbook Pro"/>
-  <test name="Amazon Automation">
     <classes>
       <class name="com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass"/>
     </classes>
-  </test> <!-- Test -->
+  </test>
+  <test name="Amazon Automation using firefox">
+  <parameter name="Browser" value="firefox"/>
+	<parameter name="ProductName" value="Macbook Pro"/>
+    <classes>
+      <class name="com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass"/>
+    </classes>
+  </test>
+  
+  
+   <!-- Test -->
 </suite> <!-- Suite -->

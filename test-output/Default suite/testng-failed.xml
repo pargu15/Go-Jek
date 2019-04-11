@@ -5,7 +5,12 @@
     <classes>
       <class name="com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass">
         <methods>
-          <include name="DirectToCreateCampaignScreen"/>
+          <include name="ReduceProductQuantity"/>
+          <include name="MoveToCheckout"/>
+          <include name="RemoveHeadphones"/>
+          <include name="AddHeadPhonesScreen"/>
+          <include name="DirectToHeadPhonesSelectionScreen"/>
+          <include name="SearchAndAddProduct"/>
         </methods>
       </class> <!-- com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass -->
     </classes>

@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <parameter name="Browser" value="Chrome"/>
-  <test name="Amazon Automation(failed)">
+  <parameter name="ProductName" value="Macbook Pro"/>
+  <parameter name="Browser" value="firefox"/>
+  <test name="Amazon Automation using firefox(failed)">
+    <parameter name="ProductName" value="Macbook Pro"/>
+    <parameter name="Browser" value="firefox"/>
     <classes>
       <class name="com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass">
         <methods>
           <include name="InitiateDriver"/>
-          <include name="DirectToCreateCampaignScreen"/>
+          <include name="ReduceProductQuantity"/>
+          <include name="MoveToCheckout"/>
+          <include name="RemoveHeadphones"/>
+          <include name="AddHeadPhonesScreen"/>
+          <include name="DriverClose"/>
+          <include name="DirectToHeadPhonesSelectionScreen"/>
+          <include name="SearchAndAddProduct"/>
         </methods>
       </class> <!-- com.Go_Jek.Amazon.MainTestPackage.AmazonCartMainclass -->
     </classes>
-  </test> <!-- Amazon Automation(failed) -->
+  </test> <!-- Amazon Automation using firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->
